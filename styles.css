@@ -9,7 +9,7 @@ h1 {
     background-color: rgb(189, 188, 188);
     width: 400px;
     padding: 20px;
-    margin: 0 auto;
+    margin: 30px auto;
     text-align: center;
 }
 
@@ -24,11 +24,18 @@ h1 {
     margin: 10px;
 }
 
-.site-directory, .directory-links {
+.site-directory, .directory-links, .pics {
     border: 3px solid black;
 }
 
 .directory-links:hover {
     transition: 0.2s;
     color: white;
+}
+
+.pics {
+    display: block;
+    height: 250px;
+    width: 300px;
+    margin: 30px auto;
 }
