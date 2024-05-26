@@ -1,14 +1,34 @@
 h1 {
    font-family: Arial, Helvetica, sans-serif;
-   font-size: 50px;
+   font-size: 72px;
    text-align: center;
 }
 
 .site-directory {
-    list-style: square;
+    list-style: none;
+    background-color: rgb(189, 188, 188);
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .directory-links {
+    display: inline-block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(243, 240, 47);
+    padding: 10px;
+    margin: 10px;
+}
+
+.site-directory, .directory-links {
+    border: 3px solid black;
+}
+
+.directory-links:hover {
+    transition: 0.2s;
+    color: white;
 }
